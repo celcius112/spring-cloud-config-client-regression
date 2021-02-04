@@ -1,0 +1,5 @@
+value: "From ./application.yml"
+
+spring:
+  config:
+    import: configserver:http://localhost:8080
